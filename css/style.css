@@ -27,9 +27,9 @@
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16pt;
+		color: #660033;
+		font-family: "Comin-Sans", Georgia, verdana;
+		font-size: 18pt;
 		font-weight: 400;
 		line-height: 1.75em;
 	}
@@ -206,6 +206,23 @@
 
 	header.major h2 {
 		font-size: 2em;
+		color: #003333;
+	}
+	p#intro{
+		font-family: "Comic Sans MS" Georgia Verdana;
+		font-size: 16.5pt;
+	}
+	
+	
+	header.pitchIn  h3 {
+		font-size: 1em;
+		color: #000033;
+		margin-left : 19em;
+		margin-top : -3em;
+	}
+	
+	header.pitchIn h3 a {
+	color: #000066;
 	}
 
 /* Form */
