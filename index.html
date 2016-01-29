@@ -1,0 +1,443 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Portfolio a Personal Category Flat Bootstarp responsive Website Template| Home :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Portfolio  Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+</script>
+<!----webfonts--->
+<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,300,600,500,900,700,100,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!---//webfonts--->
+<!------ light-box-script ----->
+<script src="js/jquery.chocolat.js"></script>
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8" />
+<script type="text/javascript" charset="utf-8">
+	$(function() {
+		$('.about-grid a').Chocolat({linkImages:false});
+	});
+</script>
+<!------ light-box-script ----->
+</head>
+<body>	
+	<!-- container -->
+		<!-- header -->
+		<div id="home" class="header">
+			<div class="container">
+				<!-- -->
+				<div class="nav-icon">
+					 <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				 <div class="box" id="box">
+					 <div class="box_content">        					                         
+						<div class="box_content_center">
+						 	<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#home">Home</a></li>
+										<li><a class="scroll" href="#about">About</a></li>
+										<li><a class="scroll" href="#services">Resume</a></li>
+										<li><a class="scroll" href="#port">Portfolio</a></li>
+										<li><a href="https://androidwithdivya.wordpress.com/" target="_blank">Blog</a></li>
+										<li><a class="scroll" href="#contact">Contact</a></li>
+										<div class="clear"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>    
+				<!-- script-for-box -->
+				 <script type="text/javascript">
+					var $ = jQuery.noConflict();
+						$(function() {
+							$('#activator').click(function(){
+								$('#box').animate({'top':'0px'},500);
+							});
+							$('#boxclose').click(function(){
+							$('#box').animate({'top':'-700px'},500);
+							});
+						});
+						$(document).ready(function(){
+						//Hide (Collapse) the toggle containers on load
+						$(".toggle_container").hide(); 
+						//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+						$(".trigger").click(function(){
+							$(this).toggleClass("active").next().slideToggle("slow");
+								return false; //Prevent the browser jump to the link anchor
+						});
+											
+					});
+				</script>
+				<!-- script-for-box -->
+				<!----->
+				<!-- banner-info -->
+				<div class="banner-info text-center">
+					<img src="images/pic1.png" class="img-responsive" alt=""/>
+					<h1>Divya Jain</h1>
+					<br>
+					<p><b>Love to design and develop software applications, specially mobile & web :)</b></p>
+					<ul>
+						<li><a href="https://www.linkedin.com/in/divyajain2405" target="_blank">Hire Me</a></li>
+						<li><a href="#contact">Contact Me</a></li>
+					</ul>
+				</div>
+				<br><br><br><br><br><br><br><br><br><br><br>
+				<!-- banner-info -->
+				<div>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/divyajain2405"  target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>&nbsp
+						<li><a href="https://github.com/djain2405"  target="_blank"><i class="fa fa-github fa-2x"></i></a></li>&nbsp
+					    <li><a href="https://www.facebook.com/deevaa.jain"  target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>&nbsp
+						<li><a href="https://twitter.com/divyajain2405"  target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- about -->
+		<br><br>
+		<div id="about" class="about">
+			<div class="container">
+				<!-- head-section -->
+				<div class="head-section text-center">
+					<h2>About Me</h2>
+					<span></span>
+				</div>
+				<!-- head-section -->
+				<!-- about-grids -->
+				<div>
+					<div class="about-grids">	
+						<p>Hi, I am Divya. I am a software developer, originally from Delhi, India. In December 2015, I graduated from North Carolina State University with an M.S in Computer Science. Before that, I worked as a Senior Mobile Developer for Samsung Research India for more than 2 years, where I developed mobile applications for Samsung Os - Tizen from scratch. Thats when I realized that I had a passion for developing user friendly and highly effective applications to solve complex problems. I am currently looking for a position where I can explore such problems and come up with critical and creative solutions. 
+						</p>
+						<p>While my forte is in Android, I am a quick learner & am proud of my ability to adapt swiftly to languages or frameworks best suited for solving a particular problem. This is demonstrated by project examples like I developed & deployed a Ruby on Rails based library system in 2 weeks without any prior knowledge, else I developed my first Tizen application in Samsung within a few days of joining.I love to learn new concepts and understanding how they can be used to fit the bigger picture of solving a problem.
+						</p>
+						<p>When I am not coding, I am generally in the world of thrill and romance through reading various novels or singing on top of my lungs. I love meeting new people and talking. Recently, I have found an affinity for cooking, specially Indian food :) My aim is to write applications and softwares which the user can efficiently interact with and ensure a great user experience! I am available for freelance work too, so if you have any idea which needs a shape, pitch in and do not hesitate to contact me.
+						</p>
+					</div>
+				</div>
+				<!-- about-grids -->
+			</div>
+		</div>
+		<!-- about -->
+		<!---pop-up-box---->
+				<script type="text/javascript" src="js/modernizr.custom.min.js"></script>    
+				<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+				<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+				<!---//pop-up-box---->
+				<div id="small-dialog" class="mfp-hide">
+					<iframe src="//player.vimeo.com/video/38584262"> </iframe>
+				</div><br><br>
+				 <script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+				</script>								  
+			<!----//fea-video---->
+		<!-- services -->
+		<div id="services" class="services">
+			<!-- head-section -->
+				<div class="head-section service-head text-center">
+					<h2>Resume</h2>
+					<span></span>
+				</div>
+				<!-- head-section -->
+				<!-- services-grids -->
+				<section class='category experience'>
+		<div class="content"
+        <div class='category-title'>EXPERIENCE</div>
+        <div class='item'>
+          <h2 class='item-company-title'>Bank Of America</h2>
+          <span class='item-personal-title'>Technology Development Intern</span>
+          <div class='item-date'>Jun 2015 - Aug 2015</div>
+          <p class='item-company-details'>
+            Create Business Process Management application as a utility to ensure automated check in of code.
+          </p>
+          <ul class='item-personal-details'>
+            <li>Focused on Pega System tools, particularly Java & Db</li>
+            <li>Hands on experience with Agile Software Methodology</li>
+          </ul>
+        </div>
+        <div class='item'>
+          <h2 class='item-company-title'>Samsung Research India</h2>
+          <span class='item-personal-title'>Senior Software Engineer</span>
+          <div class='item-date'>Apr 2012 - July 2014</div>
+          <p class='item-company-details'>
+            Develop open source mobile applications for Samsung Os - Tizen<br> Shealth, Email, Contacts, Music player, Calendar			
+          </p>
+          <ul class='item-personal-details'>
+            <li>Focused on writing readable, reusable code for front end as well as backend</li>
+            <li>Pair programmed to discover, implement, and communicate code standards among the team</li>
+            <li>Enforced quality standards in code reviews to catch bugs early and encourage refactoring.</li>
+            <li>Worked on the inter dependency between the APIs, platform services  for internal use</li>
+            <li>Analyzed and fixed critical bugs within stringent deadlines and solved product life cycle management issues raised by third party developers.</li>
+            <li>Developed mobile web-based applications using latest web-in technologies, integrating Tizen with HTML5, JavaScript using JSP technology.</li>
+          </ul>
+        </div>
+        <div class='item'>
+          <h2 class='item-company-title'>Accenture Pvt Ltd.</h2>
+          <span class='item-personal-title'>Software Engineer</span>
+          <div class='item-date'>Aug 2011 - April 2012</div>
+          <p class='item-company-details'>
+            Developer for Canadian Client - Telus Mobility
+          </p>
+          <ul class='item-personal-details'>
+            <li>Developed automated test scripts for broad customer communication database with plan details</li>
+            <li>Worked with team members to solve technical problems</li>
+            <li>Tested and deployed code to our production environment</li>
+			<li>Worked on VbScript along with tools like LoadRunner & QuickTest Professional</li>
+          </ul>
+        </div>
+        <div class='page-break'></div>
+        <div class='item'>
+          <h2 class='item-company-title'>Lantiq Communications</h2>
+          <span class='item-personal-title'>Software Engineer Intern</span>
+          <div class='item-date'>Jan - Jun 2011</div>
+          <p class='item-company-details'>
+            Create solution to enhance features of company specific MSVC application to support chipse
+          </p>
+          <ul class='item-personal-details'>
+            <li>Build new user-friendly features for the next release and saw them through QA</li>
+            <li>Worked on Microsoft Visual C++, Winset Technologies, Windows Operating System & networking concepts</li>
+          </ul>
+        </div>
+        <div class='item'>
+          <h2 class='item-company-title'>BHEL India</h2>
+          <span class='item-personal-title'>Web Developer Intern</span>
+          <div class='item-date'>May - July 2009</div>
+          <p class='item-company-details'>
+            Developed web based reservation app "Holiday Home" for employees
+          </p>
+          <ul class='item-personal-details'>
+            <li>Worked on technologies of HTML, JavaScript, JSP & Oracle</li>
+          </ul>
+        </div>
+        </section>
+        <section class='category education'>
+        <div class='category-title'>EDUCATION</div>
+        <div class='item'>
+          <h2 class='item-company-title'>North Carolina State University, Raleigh</h2>
+          <span class='item-personal-title'>MS-Computer Science</span>
+          <div class='item-date'>Aug 2014 - Dec 2015</div>
+            <ul class='item-personal-details'>
+            <li>Focus on Algorithms, Data Structures, Database Management, Object Oriented Design & DevOps</li>
+            <li>Grading Teaching Assistant, Algorithms</li>
+          </ul>
+        </div>
+		<div class='item'>
+          <h2 class='item-company-title'>Manipal Institute Of Technology, India</h2>
+          <span class='item-personal-title'>BE-Computer Science</span>
+          <div class='item-date'>Aug 2007 - May 2011</div>
+            <ul class='item-personal-details'>
+            <li>Management Commitee Head & Board Member, RedX - Manipal Socio Adventure Club</li>
+            
+          </ul>
+        </div>
+		</div>
+      </section>
+				
+				<!-- services-grids -->
+		</div><br><br>
+		<!-- services -->
+		<!-- portfolio -->
+		
+		<!-- blog -->
+		<div id="port" class="blog">
+			<div class="container">
+				<!-- head-section -->
+				<div class="head-section text-center">
+					<h2>My Portfolio</h2>
+					<span> </span>
+				</div>
+				<!-- /head-section -->
+				<!-- blog-articals -->
+				<div class="blog-articals">
+					<div class="blog-artical">
+						<div class="blog-artical-pic">
+							<a href="single.html"><img src="images/port-2.jpeg" title="Mozilla" /></a>
+						</div>
+						<div class="blog-artical-info">
+							<h3>Mozilla Servo Open Source Project</h3>
+							<span>Refactor GLES2 implementation for Non android platforms</a></span>
+							<p>Servo is Mozilla's web browser layout engine. It is being ported on Android by Samsung. I contributed to this open source project by refactoring one of the backend implementations to support it for Linux (non android) platforms. This implementation renders graphics on the browser & mainly uses RUST language.</p>
+							<a class="more-btn" href="http://wiki.expertiza.ncsu.edu/index.php/CSC/ECE_517_Fall_2015/M1506-Refactor-GLES2-Implementation#Project_Description" target="_blank">See More</a>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="blog-artical">
+						<div class="blog-artical-pic">
+							<img src="images/port-1.jpg" title="skrap it" />
+						</div>
+						<div class="blog-artical-info">
+							<h3><a href="#">Skrap it</a></h3>
+							<span>Website Design & Development</span>
+							<p>Skrap it is an upcoming startup initiative by a group of young entrepreneurs to recycle trash and make second hand goods industry organized. I designed their website and also in the process of developing an Android app for the same. Soon to be available! </p>
+							<a class="more-btn" href="#">See More</a>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="blog-artical">
+						<div class="blog-artical-pic">
+							<img src="images/port-3.jpg" title="Ring-Message" />
+						</div>
+						<div class="blog-artical-info">
+							<h3>Ring-Message</h3>
+							<span>Android app on Google Play Store</span>
+							<p>Sometimes it happens that one forgets some stuff when talking to someone! Ring-Message lets you save messages for anyone and next time when you call the person or the person calls you, a popup appears on the screen reminding you with the message. Developed with Android Studio, Sqlite Database, Call service</p>
+							<a class="more-btn" href="https://play.google.com/store/apps/details?id=myapp.prashant.ring_message&hl=en" target="_blank">See More</a>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="blog-artical">
+						<div class="blog-artical-pic">
+							<img src="images/port-4.jpg" title="DevOps" />
+						</div>
+						<div class="blog-artical-info">
+							<h3>DevOps Pipeline</h3>
+							<span>Incremental Continuous Delivery Pipeline</span>
+							<p>The pipeline comprises of Build, Test & Analysis, Deployment & Pheonix Server components.Worked on AWS, Jenkins, Mocha framework, Istanbul Analysis tool, Redis & Git.</p>
+							<a class="more-btn" href="https://www.youtube.com/watch?v=TDUEHU6qZTA" target="_blank">See More</a>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="blog-artical move-top1">
+						<div class="blog-artical-pic">
+							<a href="single.html"><img src="images/port-5.jpg" title="HackDuke" /></a>
+						</div>
+						<div class="blog-artical-info">
+							<h3>QuickFill</h3>
+							<span>Android app with Google Cloud Messaging</span>
+							<p>With the aim of making hospital visits easy and at ease for patients, developed this app at Duke Hackathon 2015 in 12 hours. Used Google Cloud Messaging to let the client (patients) save their information one time and with the click of a button, send this information to the server (doctor) which prevents the need to fill the same information again and again</p>
+							<a class="more-btn" href="http://devpost.com/software/quickfill" target="_blank">See More</a>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="blog-artical top-mid">
+						<div class="blog-artical-pic">
+							<a href="single.html"><img src="images/port-6.jpg" title="Ruby on Rails" /></a>
+						</div>
+						<div class="blog-artical-info">
+							<h3>Library Web Application</h3>
+							<span>Ruby on Rails project</span>
+							<p>This application has features like preconfigured admin which can create/view new admins, manage books & manage library members; it lets you become a library member, borrow books & return and view history.Developed following the MVC architecture</p>
+							<a class="more-btn" href="https://expertiza.ncsu.edu/submitted_content/29416/edit" target="_blank">See More</a>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				
+				<!-- blog-articals -->
+				<p class="more-articals text-center">Check Out My <a href="https://androidwithdivya.wordpress.com/" target="_blank">Android Blog</a> And Subscribe To Get All The Updates</p>
+			</div>
+		</div>
+		<!-- /blog -->
+		<!-- projects -->
+		<div id="contact" class="projects">
+			<div class="container">
+			<div class="head-section service-head text-center">
+					<h2>Contact Me</h2>
+					<span> </span>
+				</div><br>
+			<div class="singel_right">
+			     <div class="col-md-8">
+				      <div class="contact-form">
+				  	        <form method="post" action="mailto:divyajain2405@gmail.com">
+					    	    <p class="comment-form-author"><label for="author">Your Name:</label>
+					    	    	<input type="text" class="textbox" value="Enter your name here..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your name here...';}">
+						    	</p>
+						        <p class="comment-form-author"><label for="author">Email:</label>
+						     	   <input type="text" class="textbox" value="Enter your email here..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+						        </p>
+						        <p class="comment-form-author"><label for="author">Message:</label>
+						    	  <textarea value="Enter your message here..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Enter your message here...</textarea>
+						        </p>
+						        <input name="submit" type="submit" id="submit" value="Submit">
+					        </form>
+				       </div>
+			     </div>
+			     <div class="col-md-4 contact_right">
+					<h3>Mail to</h3>
+				    <div class="address">
+						<i class="pin_icon"></i>
+					    <div class="contact_address">
+						  divyajain2405@gmail.com
+					    </div>
+					    <div class="clearfix"></div>
+					</div>
+					
+		        </div>
+		        <div class="clearfix"></div>
+				<br><br>
+			</div>
+				
+			</div>
+		</div>
+		<!-- projects -->
+		
+		<!-- footer -->
+		<div class="container">
+		<div class="footer">
+
+				<div class="clearfix"> </div>
+			</div>
+			<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		</div>
+		<!-- /footer -->
+	<!-- /container -->
+</body>
+</html>
+
