@@ -1,0 +1,119 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Divya Jain</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Portfolio  Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+</script>
+<!----webfonts--->
+<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,300,600,500,900,700,100,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!---//webfonts--->
+<!------ light-box-script ----->
+<script src="js/jquery.chocolat.js"></script>
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8" />
+<script type="text/javascript" charset="utf-8">
+	$(function() {
+		$('.about-grid a').Chocolat({linkImages:false});
+	});
+</script>
+<!------ light-box-script ----->
+</head>
+<body>	
+	<!-- container -->
+		<!-- header -->
+		<div id="home" class="header">
+			<div class="container">
+				<!-- -->
+				<div class="nav-icon">
+					 <a href="" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				 <div class="box" id="box">
+					 <div class="box_content">        					                         
+						<div class="box_content_center">
+						 	<div class="form_content">
+								
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>    
+				<!-- script-for-box -->
+				 <script type="text/javascript">
+					var $ = jQuery.noConflict();
+						$(function() {
+							$('#activator').click(function(){
+								$('#box').animate({'top':'0px'},500);
+							});
+							$('#boxclose').click(function(){
+							$('#box').animate({'top':'-700px'},500);
+							});
+						});
+						$(document).ready(function(){
+						//Hide (Collapse) the toggle containers on load
+						$(".toggle_container").hide(); 
+						//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+						$(".trigger").click(function(){
+							$(this).toggleClass("active").next().slideToggle("slow");
+								return false; //Prevent the browser jump to the link anchor
+						});
+											
+					});
+				</script>
+				<!-- script-for-box -->
+				<!----->
+				<!-- banner-info -->
+				<div class="banner-info text-center">
+				<br><br><br><br><br><br><br><br><br><br><br>
+
+
+					<p><b>Thanks for the message, will get back to you soon :)</b></p>
+					
+				</div>
+				<br><br><br><br><br><br><br><br><br><br><br>
+				<!-- banner-info -->
+				<div>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/divyajain2405"  target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>&nbsp
+						<li><a href="https://github.com/djain2405"  target="_blank"><i class="fa fa-github fa-2x"></i></a></li>&nbsp
+					    <li><a href="https://www.facebook.com/deevaa.jain"  target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>&nbsp
+						<li><a href="https://twitter.com/divyajain2405"  target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- about -->
+		<br><br>
+		
+		<!-- /footer -->
+	<!-- /container -->
+</body>
+</html>
+
